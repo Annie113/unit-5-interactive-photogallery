@@ -43,7 +43,7 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  padding-left: 0.5px;
+  padding-left: 1px;
   justify-content: center;
   flex-direction: row;
 }
@@ -115,6 +115,6 @@ input:focus {
     margin: 40px;
   }
   .mfp-wrap.mfp-gallery.mfp-close-btn-in.mfp-auto-cursor.mfp-img-mobile.mfp-ready {
-    height: 100%!important;
+    min-height: 100%!important;
   }
 }
