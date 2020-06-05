@@ -114,7 +114,7 @@ input:focus {
     width: 238px;
     margin: 40px;
   }
-  .mfp-wrap.mfp-gallery.mfp-close-btn-in.mfp-auto-cursor.mfp-img-mobile.mfp-ready {
+  .mfp-bg.mfp-img-mobile.mfp-ready {
     min-height: 100%!important;
   }
 }
