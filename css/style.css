@@ -58,6 +58,10 @@ input:focus {
   width: 100%;
 }
 
+.mfp-bg.mfp-img-mobile.mfp-ready {
+  height: 1200px!important;
+}
+
 /*** Responsive ***/
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -73,9 +77,6 @@ input:focus {
   }
   img.mfp-img {
     width: auto;
-  }
-  title {
-    font-size: 18px;
   }
 }
 
@@ -99,7 +100,7 @@ input:focus {
 
 @media only screen and (min-width: 1440px)  {
 .mfp-title {
-  font-size: 18px;
+  font-size: 15px;
 }
 }
 
@@ -113,8 +114,5 @@ input:focus {
   .gallery-image {
     width: 238px;
     margin: 40px;
-  }
-  .mfp-bg.mfp-img-mobile.mfp-ready {
-    min-height: 100%!important;
   }
 }
