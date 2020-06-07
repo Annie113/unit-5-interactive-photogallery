@@ -1,4 +1,4 @@
-body {
+wwbody {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -58,10 +58,6 @@ input:focus {
   width: 100%;
 }
 
-.mfp-bg.mfp-img-mobile.mfp-ready {
-  height: 1200px!important;
-}
-
 /*** Responsive ***/
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -104,15 +100,15 @@ input:focus {
 }
 }
 
-@media only screen and (min-width: 2560px)  {
+@media only screen and (min-width: 2519px)  {
   form.search-form {
     padding: 50px 0px 20px 0px;
   }
   .gallery-container {
-    width: 50%;
+    max-width: 50%;
   }
   .gallery-image {
-    width: 238px;
+    width: 230px;
     margin: 40px;
   }
 }
